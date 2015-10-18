@@ -14,3 +14,14 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/practice', function () {
+    return 'Hello, World';
+});
+
+Route::resource('foo', 'FooController');
+
+# mainly for debugging things
+Route::get('/phpinfo', function () {
+  return phpinfo();
+});
