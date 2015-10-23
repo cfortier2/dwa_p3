@@ -48,5 +48,3 @@ EXPOSE 80
 
 # run composer install
 RUN composer install --ansi
-
-RUN php artisan key:generate
