@@ -14,6 +14,7 @@ RUN apt-get update && \
     php-pear \
     curl \
     git \
+    vim \
   && rm -r /var/lib/apt/lists/*
 
 # PHP Extensions
