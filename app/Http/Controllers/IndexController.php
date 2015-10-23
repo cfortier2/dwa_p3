@@ -37,7 +37,11 @@ class IndexController extends Controller
      */
     public function store(Request $request)
     {
-        //
+      $num = intval($request['numberOfParagraphs']);
+      $generator = new \Badcow\LoremIpsum\Generator();
+      $paragraphs = $generator->getParagraphs($num);
+
+      return view('index')->with('paragraphs', $paragraphs);
     }
 
     /**
