@@ -13,7 +13,7 @@ This is project contains two tools that are helpful for developers:
 * A fake user generator
 
 # Demo:
-http://screencast.com/t/zOXD79yITYBd
+http://screencast.com/t/Swomvc6VfN
 
 # Details:
 The site presents a simple page with explanations of the two generators. Upon following the links you will be able to create lorem ipsum text or fake user data.
