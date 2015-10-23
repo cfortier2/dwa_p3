@@ -26,6 +26,8 @@
     <link href="css/p3.css" type='text/css' rel='stylesheet'>
 </head>
 <body>
-  @yield('content')
+  <div class="container-fluid">
+    @yield('content')
+  </div>
 </body>
 </html>
