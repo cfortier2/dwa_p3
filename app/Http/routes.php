@@ -13,6 +13,9 @@
 
 Route::resource('/', 'IndexController');
 
+Route::post('/lorem_ipsum', 'LoremIpsumController@lorem_ipsum');
+Route::get('/lorem_ipsum', 'LoremIpsumController@index');
+
 /* Route::get('/practice', function () { */
 /*     return 'Hello, World'; */
 /* }); */

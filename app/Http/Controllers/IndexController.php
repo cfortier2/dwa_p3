@@ -16,7 +16,7 @@ class IndexController extends Controller
     public function index()
     {
         //
-        return view('index')->with('title', 'footitle');
+        return view('index')->with('title', 'Developers Friend');
     }
 
     /**
@@ -37,16 +37,7 @@ class IndexController extends Controller
      */
     public function store(Request $request)
     {
-      // Validate the request data
-      $this->validate($request, [
-          'numberOfParagraphs' => 'required|max:99|integer',
-      ]);
-
-      $num = intval($request['numberOfParagraphs']);
-      $generator = new \Badcow\LoremIpsum\Generator();
-      $paragraphs = $generator->getParagraphs($num);
-
-      return view('index')->with('paragraphs', $paragraphs);
+      //
     }
 
     /**
