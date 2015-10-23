@@ -14,4 +14,7 @@
   <h3><a href="/lorem_ipsum">Lorem Ipsum Generator</a></h3>
 
   <h1>Random User Generator</h1>
+  <p>This will generate a random user.</p>
+
+  <h3><a href="/random_user">Random User Generator</a></h3>
 @stop

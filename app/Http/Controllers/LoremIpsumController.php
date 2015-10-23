@@ -16,7 +16,7 @@ class LoremIpsumController extends Controller
     public function index()
     {
         //
-        return view('lorem-ipsum')->with('title', 'Lorem Ipsum');
+        return view('lorem_ipsum')->with('title', 'Lorem Ipsum');
     }
 
     /**
@@ -36,7 +36,7 @@ class LoremIpsumController extends Controller
       $generator = new \Badcow\LoremIpsum\Generator();
       $paragraphs = $generator->getParagraphs($num);
 
-      return view('lorem-ipsum')->with('paragraphs', $paragraphs);
+      return view('lorem_ipsum')->with('paragraphs', $paragraphs);
     }
 
   }
